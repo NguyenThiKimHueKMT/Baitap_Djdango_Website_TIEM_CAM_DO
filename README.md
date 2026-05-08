@@ -31,19 +31,19 @@ Bước 2: Dán nội dung sau
 <img width="1112" height="646" alt="image" src="https://github.com/user-attachments/assets/68ab70fa-191e-47da-909b-2170290e5c3a" />  
 6. Run hệ thống
 chạy lệnh: docker compose up --build    
-<img width="1014" height="636" alt="image" src="https://github.com/user-attachments/assets/2e115274-f8c8-4511-b1b3-6218078e0690" />  
+<img width="1014" height="636" alt="image" src="https://github.com/user-attachments/assets/2e115274-f8c8-4511-b1b3-6218078e0690" />
+  
+7. kiểm tra   
+lệnh ls
+<img width="746" height="471" alt="image" src="https://github.com/user-attachments/assets/ff6f747b-e536-4389-914b-b2309e619f94" />
+ 
+8. Tạo django project  
+lệnh docker compose run web django-admin startproject pawnshop
+<img width="1010" height="637" alt="image" src="https://github.com/user-attachments/assets/a5e66f85-ded2-4138-8d69-2d46e2b76742" />  
 
-7: TẠO DJANGO PROJECT  
-Bước1: chạy lệnh docker compose exec django django-admin startproject pawnshop .   
 
-8: TẠO APP  
-Bước 1: Chạy lệnh docker compose exec django_app python manage.py startapp management  
-Bước 2: Kiểm tra ls django  
-
-9: CẤU HÌNH DATABASE  
-Bước 1: Mở settings.py nano django/pawnshop/settings.py  
-Bước 2: Tìm DATABASES -> Trong nano bấm Ctrl + M -> Gõ DATABASES    
-Bước 3: Tìm đến và sửa thành như sau  
+9. Kiểm tra file  
+docker compose exec web ls   
 <img width="1010" height="637" alt="image" src="https://github.com/user-attachments/assets/23dc73d1-02a2-4385-a612-3efa93551516" />m  
 
 10.  Cấu hình database  
