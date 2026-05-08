@@ -1,4 +1,3 @@
-<img width="1790" height="967" alt="image" src="https://github.com/user-attachments/assets/6f285dec-70f4-4d01-af6c-029a8a67e476" /># Baitap_Djdango_Website_TIEM_CAM_DO
 Baitap_Djdango_Website_TIEM_CAM_DO  
 PHÁT TRIỂN ỨNG DỤNG VỚI MÃ NGUỒN MỞ (DJANGO + XÂY DỰNG WEBSITE QUẢN LÝ TIỆM CẦM ĐỒ)  
 HỌ TÊN: NGUYỄN THỊ KIM HUỆ   
